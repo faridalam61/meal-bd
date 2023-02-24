@@ -26,8 +26,8 @@
     <div>
         <h2 class="text-white text-4xl lg:text-7xl font-bold">Taste Our Delicious Best Foods</h2>
         <p class="text-white text-lg lg:text-xl my-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam aut perferendis omnis provident molestias dignissimos, eum quos non reiciendis dolores!</p>
-        <input type="text" placeholder="Search any meal" id="" class="bg-white p-3 rounded outline-0 w-48 lg:w-96">
-        <input type="button" value="Search" class="bg-amber-400 hover:bg-amber-500 text-black rounded py-3 px-6 font-bold">
+        <input type="text" placeholder="Search any meal" id="search-text" class="bg-white p-3 rounded outline-0 w-48 lg:w-96">
+        <input type="button" value="Search" class="bg-amber-400 hover:bg-amber-500 text-black rounded py-3 px-6 font-bold" id="search">
     </div>
 </div>
     </header>
@@ -36,39 +36,8 @@
             <h2 class="text-center text-black font-bold text-3xl">Your Favourite Food</h2>
 
             <!-- Products card -->
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 my-12 px-4">
-                <div class="flex gap-6">
-                    <img src="./images/banner_1.png" class="w-2/5 rounded" alt="">
-                    <div class="w-3/5">
-                        <h2 class="text-2xl font-bold">Chicken Handi</h2>
-                        <p class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolorem assumenda ab id neque et est ex iste quaerat. Cupiditate.</p>
-                        <button class="text-amber-500 font-bold border-b-2 border-amber-500 mt-6" data-toggle="modal" data-target="#exampleModalLong">View Details</button>
-                    </div>
-                </div>
-                <div class="flex gap-6">
-                    <img src="./images/banner_1.png" class="w-2/5 rounded" alt="">
-                    <div class="w-3/5">
-                        <h2 class="text-2xl font-bold">Chicken Handi</h2>
-                        <p class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolorem assumenda ab id neque et est ex iste quaerat. Cupiditate.</p>
-                        <button class="text-amber-500 font-bold border-b-2 border-amber-500 mt-6">View Details</button>
-                    </div>
-                </div>
-                <div class="flex gap-6">
-                    <img src="./images/banner_1.png" class="w-2/5 rounded" alt="">
-                    <div class="w-3/5">
-                        <h2 class="text-2xl font-bold">Chicken Handi</h2>
-                        <p class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolorem assumenda ab id neque et est ex iste quaerat. Cupiditate.</p>
-                        <button class="text-amber-500 font-bold border-b-2 border-amber-500 mt-6">View Details</button>
-                    </div>
-                </div>
-                <div class="flex gap-6">
-                    <img src="./images/banner_1.png" class="w-2/5 rounded" alt="">
-                    <div class="w-3/5">
-                        <h2 class="text-2xl font-bold">Chicken Handi</h2>
-                        <p class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolorem assumenda ab id neque et est ex iste quaerat. Cupiditate.</p>
-                        <button class="text-amber-500 font-bold border-b-2 border-amber-500 mt-6">View Details</button>
-                    </div>
-                </div>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 my-12 px-4" id="foods">
+
             </div>
 
             <div class="text-center mt-12">
